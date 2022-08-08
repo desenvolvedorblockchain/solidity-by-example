@@ -1,6 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.15;
 
+/*
+Parent contracts can be called directly, or by using the keyword super.
+
+By using the keyword super, all of the immediate parent contracts will be called.
+*/
+
 /* Inheritance tree
    A
  /  \
